@@ -1,7 +1,7 @@
-name: OneHundredGenerator
-description: Minecraft 1.0.0 world generator plugin for Bukkit.
+name: PermaWorldGenerator
+description: Permanent world generator plugin for Bukkit.
 author: DjDCH
-main: com.djdch.bukkit.onehundredgenerator.OneHundredGenerator
+main: com.djdch.bukkit.permaworldgenerator.PermaWorldGenerator
 version: 0.1
 load: startup
-website: http://dev.bukkit.org/server-mods/onehundredgenerator/
+website: http://dev.bukkit.org/server-mods/permaworldgenerator/
