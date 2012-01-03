@@ -1,5 +1,16 @@
-OneHundredGenerator - Version 0.1
+PermaWorldGenerator - Version 0.1
 ----------------------------
     * First release
+    * Forked from OneHundredGenerator
     * Build with Bukkit #1073
     * Tested with CraftBukkit #1597
+    
+    Major features changes
+    -----------------------
+    * Removed the following structures: Lakes, Canyons, Caves, Dungeons, Strongholds, Abandoned Mineshaft, NPC Villages
+    * Removed the following ores generation: Dirt, Gravel
+    * Lowered the following ores generation: Coal, Iron, Gold, Redstone, Diamond, Lapis Lazuli
+    
+    Known bugs
+    -----------
+    * Lightning can strike in Desert biome
