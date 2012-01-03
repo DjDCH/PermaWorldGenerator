@@ -12,7 +12,7 @@ import com.djdch.bukkit.permaworldgenerator.configuration.WorldConfiguration;
 import com.djdch.bukkit.permaworldgenerator.mc100.BiomeBase;
 import com.djdch.bukkit.permaworldgenerator.mc100.NoiseGeneratorOctaves;
 import com.djdch.bukkit.permaworldgenerator.mc100.WorldChunkManager;
-import com.djdch.bukkit.permaworldgenerator.mc100.WorldGenLakes;
+//import com.djdch.bukkit.permaworldgenerator.mc100.WorldGenLakes;
 
 import net.minecraft.server.Block;
 import net.minecraft.server.BlockSand;
@@ -565,7 +565,7 @@ public class ChunkProviderGenerate extends ChunkGenerator implements IChunkProvi
         long l2 = this.n.nextLong() / 2L * 2L + 1L;
         this.n.setSeed(paramInt1 * l1 + paramInt2 * l2 ^ this.s.getSeed());
 
-        boolean bool = false;
+//        boolean bool = false;
 
 //        if (this.t) {
 //            this.f.a(this.s, this.n, paramInt1, paramInt2);
@@ -575,20 +575,20 @@ public class ChunkProviderGenerate extends ChunkGenerator implements IChunkProvi
         int i4;
         int i5;
         int i3;
-        if ((!bool) && (this.n.nextInt(4) == 0)) {
-            i3 = i1 + this.n.nextInt(16) + 8;
-            i4 = this.n.nextInt(this.s.height);
-            i5 = i2 + this.n.nextInt(16) + 8;
-            new WorldGenLakes(Block.STATIONARY_WATER.id, this.worldChunkManager).a(this.s, this.n, i3, i4, i5);
-        }
-
-        if ((!bool) && (this.n.nextInt(8) == 0)) {
-            i3 = i1 + this.n.nextInt(16) + 8;
-            i4 = this.n.nextInt(this.n.nextInt(this.s.height - 8) + 8);
-            i5 = i2 + this.n.nextInt(16) + 8;
-            if ((i4 < this.s.seaLevel) || (this.n.nextInt(10) == 0))
-                new WorldGenLakes(Block.STATIONARY_LAVA.id, this.worldChunkManager).a(this.s, this.n, i3, i4, i5);
-        }
+//        if ((!bool) && (this.n.nextInt(4) == 0)) {
+//            i3 = i1 + this.n.nextInt(16) + 8;
+//            i4 = this.n.nextInt(this.s.height);
+//            i5 = i2 + this.n.nextInt(16) + 8;
+//            new WorldGenLakes(Block.STATIONARY_WATER.id, this.worldChunkManager).a(this.s, this.n, i3, i4, i5);
+//        }
+//
+//        if ((!bool) && (this.n.nextInt(8) == 0)) {
+//            i3 = i1 + this.n.nextInt(16) + 8;
+//            i4 = this.n.nextInt(this.n.nextInt(this.s.height - 8) + 8);
+//            i5 = i2 + this.n.nextInt(16) + 8;
+//            if ((i4 < this.s.seaLevel) || (this.n.nextInt(10) == 0))
+//                new WorldGenLakes(Block.STATIONARY_LAVA.id, this.worldChunkManager).a(this.s, this.n, i3, i4, i5);
+//        }
 
 //        for (i3 = 0; i3 < 8; i3++) {
 //            i4 = i1 + this.n.nextInt(16) + 8;
