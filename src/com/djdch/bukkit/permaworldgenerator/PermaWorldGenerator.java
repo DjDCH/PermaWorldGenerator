@@ -69,12 +69,6 @@ public class PermaWorldGenerator extends JavaPlugin {
 
         WorldConfiguration worldSetting = new WorldConfiguration(this);
 
-        if (id != null) {
-            if (id.contains("nostructures")) {
-                worldSetting.setLevelStructures(false);
-            }
-        }
-
         this.worldsSettings.put(worldName, worldSetting);
 
         ChunkProviderGenerate prov = new ChunkProviderGenerate(worldSetting);

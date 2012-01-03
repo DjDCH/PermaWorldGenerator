@@ -26,7 +26,7 @@ public class WorldConfiguration {
     /**
 	 * 
 	 */
-    protected boolean levelStructures = true;
+    protected boolean levelStructures = false;
 
     /**
      * 
