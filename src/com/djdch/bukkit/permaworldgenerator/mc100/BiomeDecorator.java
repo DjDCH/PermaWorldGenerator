@@ -16,12 +16,21 @@ public class BiomeDecorator {
     protected WorldGenerator h = new WorldGenSand(6, Block.GRAVEL.id);
     protected WorldGenerator i = new WorldGenMinable(Block.DIRT.id, 32);
     protected WorldGenerator j = new WorldGenMinable(Block.GRAVEL.id, 32);
-    protected WorldGenerator k = new WorldGenMinable(Block.COAL_ORE.id, 16);
-    protected WorldGenerator l = new WorldGenMinable(Block.IRON_ORE.id, 8);
-    protected WorldGenerator m = new WorldGenMinable(Block.GOLD_ORE.id, 8);
-    protected WorldGenerator n = new WorldGenMinable(Block.REDSTONE_ORE.id, 7);
-    protected WorldGenerator o = new WorldGenMinable(Block.DIAMOND_ORE.id, 7);
-    protected WorldGenerator p = new WorldGenMinable(Block.LAPIS_ORE.id, 6);
+
+    protected WorldGenerator k = new WorldGenMinable(Block.COAL_ORE.id, 8);
+    protected WorldGenerator l = new WorldGenMinable(Block.IRON_ORE.id, 4);
+    protected WorldGenerator m = new WorldGenMinable(Block.GOLD_ORE.id, 4);
+    protected WorldGenerator n = new WorldGenMinable(Block.REDSTONE_ORE.id, 4);
+    protected WorldGenerator o = new WorldGenMinable(Block.DIAMOND_ORE.id, 3);
+    protected WorldGenerator p = new WorldGenMinable(Block.LAPIS_ORE.id, 4);
+
+//    protected WorldGenerator k = new WorldGenMinable(Block.COAL_ORE.id, 16);
+//    protected WorldGenerator l = new WorldGenMinable(Block.IRON_ORE.id, 8);
+//    protected WorldGenerator m = new WorldGenMinable(Block.GOLD_ORE.id, 8);
+//    protected WorldGenerator n = new WorldGenMinable(Block.REDSTONE_ORE.id, 7);
+//    protected WorldGenerator o = new WorldGenMinable(Block.DIAMOND_ORE.id, 7);
+//    protected WorldGenerator p = new WorldGenMinable(Block.LAPIS_ORE.id, 6);
+
     protected WorldGenerator q = new WorldGenFlowers(Block.YELLOW_FLOWER.id);
     protected WorldGenerator r = new WorldGenFlowers(Block.RED_ROSE.id);
     protected WorldGenerator s = new WorldGenFlowers(Block.BROWN_MUSHROOM.id);
@@ -238,13 +247,20 @@ public class BiomeDecorator {
     }
 
     protected void b() {
-        a(20, this.i, 0, this.a.height);
-        a(10, this.j, 0, this.a.height);
-        a(20, this.k, 0, this.a.height);
-        a(20, this.l, 0, this.a.height / 2);
-        a(2, this.m, 0, this.a.height / 4);
-        a(8, this.n, 0, this.a.height / 8);
-        a(1, this.o, 0, this.a.height / 8);
-        b(1, this.p, this.a.height / 8, this.a.height / 8);
+        a(8, this.k, 0, this.a.height / 2);
+        a(8, this.l, 0, this.a.height / 2);
+        a(1, this.m, 0, this.a.height / 2);
+        a(2, this.n, 0, this.a.height / 2);
+        a(1, this.o, 0, this.a.height / 2);
+        a(2, this.p, 0, this.a.height / 2);
+
+//        a(20, this.i, 0, this.a.height);
+//        a(10, this.j, 0, this.a.height);
+//        a(20, this.k, 0, this.a.height);
+//        a(20, this.l, 0, this.a.height / 2);
+//        a(2, this.m, 0, this.a.height / 4);
+//        a(8, this.n, 0, this.a.height / 8);
+//        a(1, this.o, 0, this.a.height / 8);
+//        b(1, this.p, this.a.height / 8, this.a.height / 8);
     }
 }
