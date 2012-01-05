@@ -1,5 +1,5 @@
 name: PermaWorldGenerator
-description: Permanent world generator plugin for Bukkit.
+description: Permanent world generator.
 author: DjDCH
 main: com.djdch.bukkit.permaworldgenerator.PermaWorldGenerator
 version: 0.1

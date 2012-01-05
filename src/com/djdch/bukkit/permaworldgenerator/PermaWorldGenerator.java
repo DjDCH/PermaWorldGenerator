@@ -18,7 +18,7 @@ import com.djdch.bukkit.util.Logger;
 /**
  * Main class of the <b>PermaWorldGenerator</b> plugin for Bukkit.
  * <p>
- * Permanent world generator plugin for Bukkit.
+ * Permanent world generator.
  * 
  * @author DjDCH
  */
